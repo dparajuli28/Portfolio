@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+
+</head>
+<body>
+    <nav class="desktop-row">
+        <div class="logo">Deepak</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav class="hamburger-nav">
+        <div class="logo" src="">Deepak</div>
+        <div class="hamburger-menu">
+            <!-- either use font-awesome icons or use code below -->
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        
+        <ul class="menu-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- profile section start -->
+    <section class="profile">
+        <div class="section-pic-container">
+            <img src="./assets/images/IMG_1338.JPG" alt="Deepak Parajuli">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello I'm</p>
+            <h1 class="name">Deepak Parajuli</h1>
+            <p class="section-text-p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/cv/dummy.pdf')" target="_blank">Download CV</button>
+                <button class="btn btn-color-2">Contact me</button>
+            </div>
+            <div class="social-container">
+                <button onclick="openLinkedinProfile()" target="_blank" >
+                    <img class="icon" src="./assets/images/linkedin.png" alt="linkedinprofile"/>
+                </button>
+                <button onclick="openGithubProfile()" target="_blank">
+                    <img class="icon" src="./assets/images/github.png" alt="githubprofile"/>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section-pic-containers">
+                <img class="about-pic" src="assets/images/Deepakwork.jpg" alt="Profile picture"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/images/Education.png" alt="Education icon">
+                        <h3>Education</h3>
+                        <p>BSc (Hons) Computer Systems Engineering (BSc. IT) <br>ISMT College <br>(University Of Sunderland)</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/images/experience.png" alt="Experience icon">
+                        <h3>Expericence</h3>
+                        <p>1+ years <br/>Frontend Developer</p>
+                    </div>
+                   
+                </div>
+                <div class="text-container">
+                    <p>'Being a student I felt so intresting about IT courses from first day of my college. I learned about programming, networking, database, web development, cyber security, AI, etc and used different related tools and frameworks. At the mid of college I felt that I have to learn frontend development to start my carrer. After my college days, I found Vrit technologies as a partner to learn Frontend REACT JS course and here I am as a Frontend Developer. I can develop the most responsive websites with creative ideas. Also, I can work on team which may uplift your company and fulfill the demand of your clients.'</p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- experience section -->
+    <section id="experience">
+        <!-- <p class="section-text-p1">Explore My</p> -->
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                        <h2 class="experience-subtitle">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/images/green-check-mark-circular-16190 (1).png" alt="" class="icon">
+                                <h2>HTML</h2>
+                                <p>Experienced</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/green-check-mark-circular-16190 (1).png" alt="" class="icon">
+                                <H2>CSS</H2>
+                                <p>Experienced</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/green-check-mark-circular-16190 (1).png" alt="" class="icon">
+                                <H2>SAAS</H2>
+                                <p>Experienced</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/green-check-mark-circular-16190 (1).png" alt="" class="icon">
+                                <H2>Javascript</H2>
+                                <p>Experienced</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/yellow-check-mark-circular-16192.png" alt="" class="icon">
+                                <H2>NodeJS</H2>
+                                <p>Basic</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/yellow-check-mark-circular-16192.png" alt="" class="icon">
+                                <H2>ReactJS</H2>
+                                <p>Basic</p>
+                            </article>
+                            <article>
+                                <img src="./assets/images/yellow-check-mark-circular-16192.png" alt="" class="icon">
+                                <H2>Typescript</H2>
+                                <p>Basic</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="details-project">
+            <div class="projects-container">
+                <img src="./assets/images/onlinestore.JPG" alt="project-Onlinestore"/>
+                <h2>Online Store</h2>
+                <div class="btn-container">
+                    <button class="onlinestore-project github" onclick="openGithubProject()">Github</button>
+                    <button class="live-demo">Live Demo</button>
+                </div>>
+            </div>
+            <div class="projects-container">
+                <img src="./assets/images/Travel.JPG" alt="project-travel"/>
+                <h2>Travel Blog</h2>
+                <div class="btn-container">
+                    <button class="travel-project github" onclick="openGithubProject()">Github</button>
+                    <button class="live-demo">Live Demo</button>
+                </div>
+               
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section start -->s
+    <section id="contact">
+        <h1 class="title">Contact Us</h1>
+        <div class="form-container">
+            <p>You can mail your message here</p>
+            <div class="firstname div">
+                <label for="firstname">First Name</label>
+                <input class="input" type="text" placeholder="Your first name"></div>
+            <div class="lastname div">
+                <label for="firstname">Last Name</label>
+                <input class="input" type="text" placeholder="Your last name"></div>
+            <div class="email div">
+                <label for="email">Email</label>
+                <input class="input" type="email" placeholder="Your email id"></div>
+           <div class="message div">
+                <label for="message">Your message</label>
+                <textarea class="input" type="text" placeholder="write your message here..."></textarea></div>
+            <div class="btn div">
+            <button>submit</button></div>
+            </div>    
+    </section>
+    <script>
+        function openLinkedinProfile(){
+            window.location.href=('https://www.linkedin.com/in/deepak-parajuli-8b1207288/')
+        }
+        function openGithubProfile(){
+            window.location.href=('https://github.com/dparajuli28')
+        }
+    </script>
+</body>
+</html>
